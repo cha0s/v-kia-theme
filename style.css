@@ -39,7 +39,7 @@
 }
 
 #header-container {
-  background-image: url(http://i.imgur.com/wAkXZRG.png);
+  background-image: url(https://i.imgur.com/wAkXZRG.png);
   background-repeat: repeat;
   background-size: 500px auto;
   height: 112px;
@@ -61,7 +61,7 @@
  */
 @media (min-width: 796px) {
   .pagename {
-    background: url(http://i.imgur.com/Hz5EAjL.png);
+    background: url(https://i.imgur.com/Hz5EAjL.png);
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 40px;
@@ -93,7 +93,7 @@
   #header-img-a {
     width: 127px;
     height: 88px;
-    background: url(http://i.imgur.com/DCdMj3m.png);
+    background: url(https://i.imgur.com/DCdMj3m.png);
   }
 
   img#header-img {
@@ -200,7 +200,7 @@
  * User account info
  */
 .logged-in, .logged-out {
-  background-image: url(http://s10.postimg.org/7y2t1nh3p/logbg.png);
+  background-image: url(https://i.imgur.com/a4bQBzZ.png);
   background-color: transparent;
   background-repeat: repeat;
   border: 0 solid #dcdcdc;
@@ -416,8 +416,43 @@
 }
 
 /**
+ * Footer
+ */
+.footer-container {
+  position: relative;
+}
+
+.footer-container::before {
+  position: absolute;
+  display: block;
+  right: 0px;
+  left: 0px;
+  bottom: -100px;
+  height: 150px;
+  background-image: url("https://i.imgur.com/PeOCIqj.png");
+  background-position: top center;
+  z-index: -10000;
+  content: "";
+}
+
+.footer-container::after {
+  position: absolute;
+  display: block;
+  right: 0px;
+  left: 0px;
+  bottom: -350px;
+  height: 250px;
+  background-image: url("https://i.imgur.com/Jsoyt8c.jpg");
+  background-position: top center;
+  z-index: -10000;
+  content: "";
+}
+
+/**
  * Custom flairs!
  */
 .commentarea .author[href="/user/TheHat2"]:after {
   content: " [Old Hatman]";
 }
+
+
