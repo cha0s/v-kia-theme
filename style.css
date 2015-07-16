@@ -11,6 +11,10 @@
   border-bottom: 1px solid #222;
 }
 
+#sr-header-area .width-clip br {
+  display: none;
+}
+
 #sr-bar li a {
   color: #bbb;
 }
