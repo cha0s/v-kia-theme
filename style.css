@@ -1,0 +1,802 @@
+#sr-bar li a {
+  color: #bbb;
+}
+
+#sr-header-area:hover #sr-bar li a{
+color: white;
+}
+
+@media (min-width: 796px) {
+  .pagename {
+    background: url('http://i.imgur.com/Hz5EAjL.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 40px;
+    width:285px;
+    height:43px;
+    font-size: 40px;
+    margin-left:20px;
+    margin-bottom:0;
+    position: absolute;
+  }
+
+  .pagename a {
+    color: transparent;
+    display: inline-block;
+    padding: 0px 8px;
+  }
+
+  .pagename a:hover {
+    color: transparent;
+    display: inline-block;
+    padding: 0px 8px;
+  }
+}
+
+#header-banner {
+  max-width: 100%;
+  height:112px;
+  padding-top:24px;
+}
+
+@media (min-width: 701px) {
+
+  #header-img-a {
+    width: 127px;
+    height: 88px;
+    background: url('http://i.imgur.com/DCdMj3m.png');
+  }
+
+  img#header-img {
+    visibility: hidden;
+  }
+}
+
+#header-container {
+  background-image: url("http://i.imgur.com/wAkXZRG.png");
+background-repeat: repeat;
+background-size: 500px auto;
+  height: 112px;
+  border-top: 0px solid #222;
+  border-bottom: 0px solid #222;
+position: relative;
+margin-top:-24px;
+z-index: -1;
+}
+
+.tabmenu {
+  bottom: 3px;
+  font-size: 12px;
+  left: 168px;
+  line-height: 32px;
+  position: absolute;
+  top: auto;
+}
+
+@media (min-width: 871px) {
+  .tabmenu {
+    left: 148px;
+  }
+}
+
+@media (max-width: 795px) {
+  .tabmenu {
+    bottom: auto;
+    left: auto;
+    right: 4px;
+    top: 30px;
+  }
+}
+
+@media (max-width: 701px) {
+  .tabmenu {
+    position: static;
+  }
+}
+
+.tabmenu li.disabled a {
+  color: #bbb;
+  background: -webkit-linear-gradient(top,transparent,transparent);
+border: 0px solid #d0d0d0;
+  box-shadow: 0 0px 0 hsla(0,0%,0%,0);
+}
+
+.tabmenu li.disabled a:hover {
+  background: #772a90;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: solid #772a90;
+  border-width: 1px 0px 2px;
+color: #bbb;
+}
+
+.tabmenu li.selected a {
+  background: #a44cc1;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: solid #a44cc1;
+  border-width: 1px 1px 2px;
+  color: white;
+}
+
+.tabmenu li.selected a:hover {
+  background: #772a90;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: solid #772a90;
+  border-width: 1px 1px 2px;
+  color: white;
+}
+
+.tabmenu li.disabled a.contribute {
+  background: #0ea912;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: solid #0ea912;
+  border-width: 1px 1px 2px;
+  color: white;
+}
+
+.tabmenu li.disabled a.contribute:hover {
+  background: #0c840f;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: solid #0c840f;
+  border-width: 1px 1px 2px;
+  color: white;
+}
+
+.logged-in {
+  background-image: url("http://s10.postimg.org/7y2t1nh3p/logbg.png");
+background-color:transparent;
+background-repeat: repeat;
+  border: 0px solid #dcdcdc;
+  border-radius: 0px;
+  margin: 0 0 1px;
+  padding: 4px 10px 5px;
+padding-bottom:7px;
+vertical-align:top;
+opacity:0.7;
+}
+
+#manage {
+  position: relative;
+  top: 5px;
+}
+
+#sr-header-area {
+  background: transparent;
+  font-size: 11px;
+  height: 24px;
+  line-height: 22px;
+opacity:0.8;
+border-bottom: 1px solid #222;
+}
+
+#header {
+  height: 111px;
+  margin: 0 0 1px;
+background:#1a1a1b;
+}
+
+.promoted {
+  background: #ca5762;
+  border: 1px solid #ca5762;
+}
+
+.user {
+  color: #bbb;
+}
+
+#header-account .separator {
+  color: #bbb;
+  margin: 0 4px;
+}
+
+.user .upvoatsGiven {
+  border-bottom: 0px dotted #666;
+}
+
+#sr-more-link {
+    background: transparent;
+  color: #bbb;
+}
+
+#sr-more-link:hover {
+    background: transparent;
+  color: white;
+}
+
+#header-account a {
+  color: white;
+}
+
+#header-account a:hover {
+  color: #818181;
+}
+
+.user .userkarma {
+  border-bottom: 0px dotted #353535;
+}
+
+.user .upvoatsGiven a {
+  color: #4aabe7!important;
+  border-bottom: 0px dotted #353535;
+padding-left:4px;
+}
+
+.btn-whoaverse.contribute {
+  background: #0ea912;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border-color: #0ea912;
+  color: white;
+}
+
+.btn-whoaverse-paging {
+  background: #a44cc1;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: 1px solid #a44cc1;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 6px;
+  text-align: center;
+}
+
+.btn-whoaverse-paging a {
+  color: white!important;
+}
+
+.btn-whoaverse-paging:hover {
+  background: #772a90;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: 1px solid #772a90;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-whoaverse.contribute:hover {
+  background: #0c840f;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border-color: #0c840f;
+  color: white;
+}
+
+
+
+#container {
+  border: 0px solid #d1d1d1;
+  border-radius: 0px;
+  border-top: 1px solid #222;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding: 10px;
+  position: relative;
+}
+
+
+.link a.title.may-blank:visited {
+  color: #bbb;
+}
+
+.link a.title.may-blank:visited {
+  color: #bbb;
+}
+
+.link {
+  margin: 0;
+  padding: 8px 0;
+margin-left:-20px;
+}
+
+.side {
+  float: right;
+  margin: 0 0px 0;
+  padding: 10px;
+  top: -1px;
+  transition: 500ms right;
+}
+
+.side .subscribers {
+  display: block;
+  margin: .4em 0;
+}
+
+@media (max-width: 870px) {
+  .side {
+    height: calc(100vh - 100px);
+  }
+}
+
+.midcol {
+  background: none;
+  float: left;
+  margin-left: 20px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.link a.subverse {
+  font-weight:normal;
+}
+
+.link .tagline {
+  font-size: 11px;
+}
+
+.link .flat-list {
+  font-size: 11px;
+  margin: 0px 0 0;
+  padding: 0;
+}
+
+.thumbnail {
+  border-radius: 3px;
+  max-width: 65px;
+}
+
+/**
+ * Not sure about the stuff below... -cha0s
+ */
+
+.flair {  
+	display: inline-block;
+	border: 1px solid #e6e6e6;
+	border-radius: 2px;
+        color: white;
+	line-height: 150%;
+	margin-right: 3px;
+	padding: 2px 4px;
+	vertical-align: middle;
+        background-color: #e74c3c
+}
+
+.comment a.submitter.author, .comment a.moderator.author,
+.content a[href="/user/jk611"],
+.content a[href="/user/TheHat2"]
+ {
+	background-color: #0a7285;
+	padding: 3px 4px;
+	border-radius: 3px;
+	color: white !important;
+	font-weight: bold;
+}
+.comment a.moderator.author,
+.content a[href="/user/jk611"],
+.content a[href="/user/TheHat2"]
+{
+	background-color: #3fbf4c !important;
+}
+
+.commentarea .author:after{color:#78644F}.commentarea .author[href$="/user/TheHat2"]:after{content:" [Old Hatman]"}
+#sr-bar li a {
+  color: #bbb;
+}
+
+#sr-header-area:hover #sr-bar li a{
+color: white;
+}
+
+@media (min-width: 796px) {
+  .pagename {
+    background: url('http://i.imgur.com/Hz5EAjL.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 40px;
+    width:285px;
+    height:43px;
+    font-size: 40px;
+    margin-left:20px;
+    margin-bottom:0;
+    position: absolute;
+  }
+
+  .pagename a {
+    color: transparent;
+    display: inline-block;
+    padding: 0px 8px;
+  }
+
+  .pagename a:hover {
+    color: transparent;
+    display: inline-block;
+    padding: 0px 8px;
+  }
+}
+
+#header-banner {
+  max-width: 100%;
+  height:112px;
+  padding-top:24px;
+}
+
+@media (min-width: 701px) {
+
+  #header-img-a {
+    width: 127px;
+    height: 88px;
+    background: url('http://i.imgur.com/DCdMj3m.png');
+  }
+
+  img#header-img {
+    visibility: hidden;
+  }
+}
+
+#header-container {
+  background-image: url("http://i.imgur.com/wAkXZRG.png");
+background-repeat: repeat;
+background-size: 500px auto;
+  height: 112px;
+  border-top: 0px solid #222;
+  border-bottom: 0px solid #222;
+position: relative;
+margin-top:-24px;
+z-index: -1;
+}
+
+.tabmenu {
+  bottom: 3px;
+  font-size: 12px;
+  left: 168px;
+  line-height: 32px;
+  position: absolute;
+  top: auto;
+}
+
+@media (min-width: 871px) {
+  .tabmenu {
+    left: 148px;
+  }
+}
+
+@media (max-width: 795px) {
+  .tabmenu {
+    bottom: auto;
+    left: auto;
+    right: 4px;
+    top: 30px;
+  }
+}
+
+@media (max-width: 701px) {
+  .tabmenu {
+    position: static;
+  }
+}
+
+.tabmenu li.disabled a {
+  color: #bbb;
+  background: -webkit-linear-gradient(top,transparent,transparent);
+border: 0px solid #d0d0d0;
+  box-shadow: 0 0px 0 hsla(0,0%,0%,0);
+}
+
+.tabmenu li.disabled a:hover {
+  background: #772a90;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: solid #772a90;
+  border-width: 1px 0px 2px;
+color: #bbb;
+}
+
+.tabmenu li.selected a {
+  background: #a44cc1;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: solid #a44cc1;
+  border-width: 1px 1px 2px;
+  color: white;
+}
+
+.tabmenu li.selected a:hover {
+  background: #772a90;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: solid #772a90;
+  border-width: 1px 1px 2px;
+  color: white;
+}
+
+.tabmenu li.disabled a.contribute {
+  background: #0ea912;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: solid #0ea912;
+  border-width: 1px 1px 2px;
+  color: white;
+}
+
+.tabmenu li.disabled a.contribute:hover {
+  background: #0c840f;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: solid #0c840f;
+  border-width: 1px 1px 2px;
+  color: white;
+}
+
+.logged-in {
+  background-image: url("http://s10.postimg.org/7y2t1nh3p/logbg.png");
+background-color:transparent;
+background-repeat: repeat;
+  border: 0px solid #dcdcdc;
+  border-radius: 0px;
+  margin: 0 0 1px;
+  padding: 4px 10px 5px;
+padding-bottom:7px;
+vertical-align:top;
+opacity:0.7;
+}
+
+#manage {
+  position: relative;
+  top: 5px;
+}
+
+#sr-header-area {
+  background: transparent;
+  font-size: 11px;
+  height: 24px;
+  line-height: 22px;
+opacity:0.8;
+border-bottom: 1px solid #222;
+}
+
+#header {
+  height: 111px;
+  margin: 0 0 1px;
+background:#1a1a1b;
+}
+
+.promoted {
+  background: #ca5762;
+  border: 1px solid #ca5762;
+}
+
+.user {
+  color: #bbb;
+}
+
+#header-account .separator {
+  color: #bbb;
+  margin: 0 4px;
+}
+
+.user .upvoatsGiven {
+  border-bottom: 0px dotted #666;
+}
+
+#sr-more-link {
+    background: transparent;
+  color: #bbb;
+}
+
+#sr-more-link:hover {
+    background: transparent;
+  color: white;
+}
+
+#header-account a {
+  color: white;
+}
+
+#header-account a:hover {
+  color: #818181;
+}
+
+.user .userkarma {
+  border-bottom: 0px dotted #353535;
+}
+
+.user .upvoatsGiven a {
+  color: #4aabe7!important;
+  border-bottom: 0px dotted #353535;
+padding-left:4px;
+}
+
+.btn-whoaverse.contribute {
+  background: #0ea912;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border-color: #0ea912;
+  color: white;
+}
+
+.btn-whoaverse-paging {
+  background: #a44cc1;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: 1px solid #a44cc1;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 6px;
+  text-align: center;
+}
+
+.btn-whoaverse-paging a {
+  color: white!important;
+}
+
+.btn-whoaverse-paging:hover {
+  background: #772a90;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: 1px solid #772a90;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-whoaverse.contribute:hover {
+  background: #0c840f;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border-color: #0c840f;
+  color: white;
+}
+
+
+
+#container {
+  border: 0px solid #d1d1d1;
+  border-radius: 0px;
+  border-top: 1px solid #222;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding: 10px;
+  position: relative;
+}
+
+
+.link a.title.may-blank:visited {
+  color: #bbb;
+}
+
+.link a.title.may-blank:visited {
+  color: #bbb;
+}
+
+.link {
+  margin: 0;
+  padding: 8px 0;
+margin-left:-20px;
+}
+
+.side {
+  float: right;
+  margin: 0 0px 0;
+  padding: 10px;
+  top: -1px;
+  transition: 500ms right;
+}
+
+.side .subscribers {
+  display: block;
+  margin: .4em 0;
+}
+
+@media (max-width: 870px) {
+  .side {
+    height: calc(100vh - 100px);
+  }
+}
+
+.midcol {
+  background: none;
+  float: left;
+  margin-left: 20px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.link a.subverse {
+  font-weight:normal;
+}
+
+.link .tagline {
+  font-size: 11px;
+}
+
+.link .flat-list {
+  font-size: 11px;
+  margin: 0px 0 0;
+  padding: 0;
+}
+
+.thumbnail {
+  border-radius: 3px;
+  max-width: 65px;
+}
+
+/**
+ * Not sure about the stuff below... -cha0s
+ */
+
+.flair {  
+	display: inline-block;
+	border: 1px solid #e6e6e6;
+	border-radius: 2px;
+        color: white;
+	line-height: 150%;
+	margin-right: 3px;
+	padding: 2px 4px;
+	vertical-align: middle;
+        background-color: #e74c3c
+}
+
+.comment a.submitter.author, .comment a.moderator.author,
+.content a[href="/user/jk611"],
+.content a[href="/user/TheHat2"]
+ {
+	background-color: #0a7285;
+	padding: 3px 4px;
+	border-radius: 3px;
+	color: white !important;
+	font-weight: bold;
+}
+.comment a.moderator.author,
+.content a[href="/user/jk611"],
+.content a[href="/user/TheHat2"]
+{
+	background-color: #3fbf4c !important;
+}
+
+.commentarea .author:after{color:#78644F}.commentarea .author[href$="/user/TheHat2"]:after{content:" [Old Hatman]"}
