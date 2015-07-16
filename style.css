@@ -274,10 +274,6 @@
 /**
  * List pages
  */
-.promoted {
-  background: #ca5762;
-  border: 1px solid #ca5762;
-}
 
 .btn-whoaverse-paging {
   background: #a44cc1;
@@ -409,7 +405,7 @@
 /**
  * Link flair styling
  */
-.flair {
+.flair, .promoted {
   display: inline-block;
   border: 1px solid #e6e6e6;
   border-radius: 2px;
