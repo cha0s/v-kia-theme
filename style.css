@@ -196,6 +196,30 @@
   color: #fff;
 }
 
+.tabmenu li.selected a.contribute {
+  background: #0ea912;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: solid #0ea912;
+  border-width: 1px 1px 2px;
+  color: white;
+  font-weight: normal;
+}
+
+.tabmenu li.selected a.contribute:hover {
+  background: #0c840f;
+  background: -webkit-linear-gradient(top,);
+  background: -moz-linear-gradient(top,);
+  background: -ms-linear-gradient(top,);
+  background: -o-linear-gradient(top,);
+  border: solid #0c840f;
+  border-width: 1px 1px 2px;
+  color: white;
+  font-weight: normal;
+}
+
 /**
  * User account info
  */
