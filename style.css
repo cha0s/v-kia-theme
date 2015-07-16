@@ -478,3 +478,549 @@
   .commentarea .author[href="/user/TheHat2"]:after {
     content: " [Old Hatman]";
   }
+
+
+
+/* --- Top bar --- */
+
+  #sr-header-area {
+    background: transparent;
+    font-size: 11px;
+    height: 24px;
+    line-height: 22px;
+    opacity: .8;
+    border-bottom: 1px solid #222;
+  }
+
+  #sr-header-area .width-clip br {
+    display: none;
+  }
+
+  #sr-bar li a {
+    color: #bbb;
+  }
+
+  #sr-header-area:hover #sr-bar li a {
+    color: #fff;
+  }
+
+  #sr-more-link {
+    background: transparent;
+    color: #bbb;
+  }
+
+  #sr-more-link:hover {
+    background: transparent;
+    color: #fff;
+  }
+
+
+/* --- Header --- */
+
+  #header {
+    height: 111px;
+    margin: 0 0 1px;
+    background: #1a1a1b;
+  }
+
+  #header-container {
+    background-image: url(https://i.imgur.com/wAkXZRG.png);
+    background-repeat: repeat;
+    background-size: 500px auto;
+    height: 112px;
+    border-top: 0 solid #222;
+    border-bottom: 0 solid #222;
+    position: relative;
+    margin-top: -24px;
+    z-index: -1;
+  }
+
+  #header-banner {
+    max-width: 100%;
+    height: 112px;
+    padding-top: 24px;
+  }
+
+
+/* --- Replace the subverse name with our KiA sublogo --- */
+
+  @media (min-width: 796px) {
+    .pagename {
+      background: url(https://i.imgur.com/Hz5EAjL.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      bottom: 40px;
+      width: 285px;
+      height: 43px;
+      font-size: 40px;
+      margin-left: 20px;
+      margin-bottom: 0;
+      position: absolute;
+    }
+
+    .pagename a {
+      color: transparent;
+      display: inline-block;
+      padding: 0 8px;
+    }
+
+    .pagename a:hover {
+      color: transparent;
+      display: inline-block;
+      padding: 0 8px;
+    }
+  }
+
+
+/* --- Replace voat logo with our Viv --- */
+
+  @media (min-width: 701px) {
+    #header-img-a {
+      width: 127px;
+      height: 88px;
+      background: url(https://i.imgur.com/DCdMj3m.png);
+    }
+
+    img#header-img {
+      visibility: hidden;
+    }
+  }
+
+
+/* --- Hot, new, top, submit, ... --- */
+
+  .tabmenu {
+    bottom: 3px;
+    font-size: 12px;
+    left: 168px;
+    line-height: 32px;
+    position: absolute;
+    top: auto;
+  }
+
+  @media (min-width: 871px) {
+    .tabmenu {
+      left: 148px;
+    }
+  }
+
+  @media (max-width: 795px) {
+    .tabmenu {
+      bottom: auto;
+      left: auto;
+      right: 4px;
+      top: 30px;
+    }
+  }
+
+  @media (max-width: 701px) {
+    .tabmenu {
+      position: static;
+    }
+  }
+
+  .tabmenu li.disabled a {
+    color: #bbb;
+    background: -webkit-linear-gradient(top,transparent,transparent);
+    border: none;
+    box-shadow: none;
+  }
+
+  .tabmenu li.disabled a:hover {
+    background: #772a90;
+    background: -webkit-linear-gradient(top,);
+    background: -moz-linear-gradient(top,);
+    background: -ms-linear-gradient(top,);
+    background: -o-linear-gradient(top,);
+    border: solid #772a90;
+    border-width: 1px 0 2px;
+    color: #bbb;
+  }
+
+  .tabmenu li.selected a {
+    background: #a44cc1;
+    background: -webkit-linear-gradient(top,);
+    background: -moz-linear-gradient(top,);
+    background: -ms-linear-gradient(top,);
+    background: -o-linear-gradient(top,);
+    border: solid #a44cc1;
+    border-width: 1px 1px 2px;
+    color: #fff;
+  }
+
+  .tabmenu li.selected a:hover {
+    background: #772a90;
+    background: -webkit-linear-gradient(top,);
+    background: -moz-linear-gradient(top,);
+    background: -ms-linear-gradient(top,);
+    background: -o-linear-gradient(top,);
+    border: solid #772a90;
+    border-width: 1px 1px 2px;
+    color: #fff;
+  }
+
+  .tabmenu li.disabled a.contribute {
+    background: #0ea912;
+    background: -webkit-linear-gradient(top,);
+    background: -moz-linear-gradient(top,);
+    background: -ms-linear-gradient(top,);
+    background: -o-linear-gradient(top,);
+    border: solid #0ea912;
+    border-width: 1px 1px 2px;
+    color: #fff;
+  }
+
+  .tabmenu li.disabled a.contribute:hover {
+    background: #0c840f;
+    background: -webkit-linear-gradient(top,);
+    background: -moz-linear-gradient(top,);
+    background: -ms-linear-gradient(top,);
+    background: -o-linear-gradient(top,);
+    border: solid #0c840f;
+    border-width: 1px 1px 2px;
+    color: #fff;
+  }
+
+  .tabmenu li.selected a.contribute {
+    background: #0ea912;
+    background: -webkit-linear-gradient(top,);
+    background: -moz-linear-gradient(top,);
+    background: -ms-linear-gradient(top,);
+    background: -o-linear-gradient(top,);
+    border: solid #0ea912;
+    border-width: 1px 1px 2px;
+    color: white;
+    font-weight: normal;
+  }
+
+  .tabmenu li.selected a.contribute:hover {
+    background: #0c840f;
+    background: -webkit-linear-gradient(top,);
+    background: -moz-linear-gradient(top,);
+    background: -ms-linear-gradient(top,);
+    background: -o-linear-gradient(top,);
+    border: solid #0c840f;
+    border-width: 1px 1px 2px;
+    color: white;
+    font-weight: normal;
+  }
+
+
+/* --- User account info --- */
+
+  .logged-in, .logged-out {
+    background-image: url(https://i.imgur.com/a4bQBzZ.png);
+    background-color: transparent;
+    background-repeat: repeat;
+    border: 0 solid #dcdcdc;
+    border-radius: 0;
+    margin: 0 0 1px;
+    padding: 4px 10px 5px;
+    padding-bottom: 7px;
+    vertical-align: top;
+    opacity: .7;
+  }
+
+  #header-account .separator {
+    color: #bbb;
+    margin: 0 4px;
+  }
+
+  #header-account .user {
+    color: #bbb;
+  }
+
+  #header-account .user .upvoatsGiven {
+    border-bottom: 0 dotted #666;
+  }
+
+  #header-account a {
+    color: #fff;
+  }
+
+  #header-account a:hover {
+    color: #818181;
+  }
+
+  #header-account .user .userkarma {
+    border-bottom: 0 dotted #353535;
+  }
+
+  #header-account .user .upvoatsGiven a {
+    color: #4aabe7 !important;
+    border-bottom: 0 dotted #353535;
+    padding-left: 4px;
+  }
+
+
+/* --- List pages --- */
+
+
+  .btn-whoaverse-paging {
+    background: #a44cc1;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    text-align: center;
+  }
+
+  .btn-whoaverse-paging a {
+    color: #fff !important;
+  }
+
+  .btn-whoaverse-paging:hover {
+    background: #772a90;
+    background: -webkit-linear-gradient(top,);
+    background: -moz-linear-gradient(top,);
+    background: -ms-linear-gradient(top,);
+    background: -o-linear-gradient(top,);
+    border: 1px solid #772a90;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+
+/* --- General stuff --- */
+
+  #container {
+    border: 0 solid #d1d1d1;
+    border-radius: 0;
+    border-top: 1px solid #222;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 10px;
+    position: relative;
+  }
+
+  .btn-whoaverse.contribute {
+    border: none;
+    color: #fff;
+  }
+
+  .btn-whoaverse.contribute.submit-link {
+    background: #a44cc1;
+  }
+
+  .btn-whoaverse.contribute.submit-link:hover {
+    background: #772a90;
+  }
+
+  .btn-whoaverse.contribute.submit-text {
+    background: #0ea912;
+  }
+
+  .btn-whoaverse.contribute.submit-text:hover {
+    background: #0c840f;
+  }
+
+  .link a.title.may-blank:visited {
+    color: #bbb;
+  }
+
+  .link a.title.may-blank:visited {
+    color: #bbb;
+  }
+
+  .link {
+    margin: 0;
+    padding: 8px 0;
+    margin-left: -20px;
+  }
+
+  .side {
+    float: right;
+    margin: 0;
+    padding: 10px;
+    top: -1px;
+    transition: 500ms right;
+  }
+
+  @media (max-width: 870px) {
+    .side {
+      height: calc(100vh - 100px);
+    }
+  }
+
+  .side .subscribers {
+    display: block;
+    margin: .4em 0;
+  }
+
+  .midcol {
+    background: none;
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+
+  .link a.subverse {
+    font-weight: 400;
+  }
+
+  .link .tagline {
+    font-size: 11px;
+  }
+
+  .link .flat-list {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .thumbnail {
+    border-radius: 3px;
+    max-width: 65px;
+  }
+
+
+/* --- Link flair styling --- */
+
+  .flair, .promoted {
+    display: inline-block;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 150%;
+    margin-right: 3px;
+    padding: 2px 4px;
+    vertical-align: middle;
+    background-color: #e74c3c;
+  }
+
+
+/* --- Comment flair styling --- */
+
+  .comment a.submitter.author, .comment a.moderator.author {
+    padding: 3px 4px;
+    border-radius: 3px;
+    color: #fff !important;
+    font-weight: 700;
+  }
+
+  .comment a.submitter.author {
+    background-color: #0a7285;
+  }
+
+  .comment a.moderator.author {
+    background-color: #3fbf4c !important;
+  }
+
+  .commentarea .author:after {
+    color: #78644F;
+  }
+
+
+/* --- Footer --- */
+
+  .footer-container {
+    position: relative;
+  }
+
+  .footer-container::before {
+    position: absolute;
+    display: block;
+    right: 0px;
+    left: 0px;
+    bottom: -100px;
+    height: 150px;
+    background-image: url("https://i.imgur.com/PeOCIqj.png");
+    background-position: top center;
+    z-index: -10000;
+    content: "";
+  }
+
+  .footer-container::after {
+    position: absolute;
+    display: block;
+    right: 0px;
+    left: 0px;
+    bottom: -350px;
+    height: 250px;
+    background-image: url("https://i.imgur.com/Jsoyt8c.jpg");
+    background-position: top center;
+    z-index: -10000;
+    content: "";
+  }
+
+
+/* --- Custom flairs! --- */
+
+  .commentarea .author[href="/user/TheHat2"]:after {
+    content: " [Old Hatman]";
+  }
+
+/* --- More Buttons --- */
+  .titlebox h3 a, .btn-whoaverse-paging.btn-xs.btn-default.btn-sub {
+    background-color: rgb(164, 76, 193);
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17.1599998474121px;
+    padding: 5px 12px;
+    text-align: center;
+    width: 280px;
+    text-transform: capitalize;
+  }
+  .titlebox h3 a, .titlebox h3 a:visited, .titlebox h3 a:active, .titlebox h3 a:hover {
+    color: white;
+  }
+  .btn-whoaverse-paging.btn-xs.btn-default.btn-sub {
+    line-height: 29px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 280px;
+  }
+  .btn-whoaverse-paging:hover {
+    border: none;
+  }
+
+/* --- Subverse Name Sidebar --- */
+  h1.whoaversename {
+    background-image: url(https://i.imgur.com/G0GiFmh.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 285px;
+    font-size: 40px;
+    margin-left: -4px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 0;
+    height: 31px;
+    margin-bottom: 10px;
+    bottom: 74px;
+  }
+  h1.whoaversename a, h1.whoaversename a:hover, h1.whoaversename a:active, h1.whoaversename a:visited {
+    color: transparent;
+    display: inline-block;
+    height: 30px;
+    width: 285px;
+  }
+  h1.whoaversename a.rss-icon {
+    bottom: 52px;
+    left: 268px;
+    height: 14px;
+    width: 14px;
+    position: relative;
+    z-index: 30;
+  }
+  h1.whoaversename a.rss-icon img{
+    margin-bottom: 37px;
+  }
+  .btn-whoaverse.contribute {
+    position: relative;
+    top: 42px;
+  }
