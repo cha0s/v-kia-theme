@@ -406,6 +406,10 @@
     margin-left: 0;
   }
 
+  link .md, .comment .md {
+    max-width: 60em;
+  }
+
 /* --- Link flair styling --- */
 
   .flair, .promoted {
