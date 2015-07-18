@@ -402,6 +402,9 @@
     max-width: 65px;
   }
 
+  .md a[href="#s"]::after {
+    margin-left: 0;
+  }
 
 /* --- Link flair styling --- */
 
