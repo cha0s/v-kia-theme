@@ -450,6 +450,13 @@
     border: 1px solid #d1d1d1;
   }
 
+  @media (max-width: 870px) {
+    .side h1.whoaversename {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
+
   .side h1.whoaversename a:first-child {
     display: none;
   }
@@ -546,6 +553,15 @@
     margin-bottom: 10px;
     width: 300px;
   }
+
+  @media (max-width: 870px) {
+    .titlebox h3 a,
+    .btn-whoaverse-paging.btn-xs.btn-default.btn-sub,
+    .btn-whoaverse-paging.btn-xs.btn-default.btn-sub {
+      width: 283px;
+    }
+  }
+
   .btn-whoaverse-paging:hover {
     border: none;
   }
