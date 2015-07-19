@@ -501,6 +501,69 @@
     margin: 5px 0 10px;
   }
 
+  /** Link bar */
+  .side .md blockquote:nth-of-type(1) ul {
+    list-style: disc inside;
+    margin-left: 0;
+  }
+
+  .side .md blockquote:nth-of-type(1) ul li a {
+    text-transform: uppercase;
+    font-size: 14.6px;
+    font-weight: bold;
+  }
+
+  @media (min-width: 871px) {
+    .side .md blockquote:nth-of-type(1) {
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      position: absolute;
+      top: -90px;
+      left: 183px;
+      z-index: 10000;
+      padding: 0;
+      margin: 0;
+      background-color: transparent;
+      border: none;
+    }
+
+    .dark .side .md blockquote:nth-of-type(1) {
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+    }
+
+    .side .md blockquote:nth-of-type(1) h1 {
+      display: none;
+    }
+
+    .side .md blockquote:nth-of-type(1) ul {
+      list-style: none;
+      margin: 10px 2em;
+    }
+
+    .side .md blockquote:nth-of-type(1) ul li {
+      float: left;
+    }
+
+    .side .md blockquote:nth-of-type(1) ul li a {
+      color: #FFF;
+      margin-right: .25em;
+    }
+
+    .side .md blockquote:nth-of-type(1) ul li a:after {
+      content: ' | ';
+      position: relative;
+      bottom: 2px;
+      color: #666;
+    }
+
+    .side .md blockquote:nth-of-type(1) ul li:last-child a:after {
+      display: none;
+    }
+  }
+
   .dark .side .md tr,
   .dark .side .md th,
   .dark .side .md td {
@@ -613,6 +676,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+    overflow: visible;
     padding: 10px 0;
     position: relative;
   }
