@@ -810,20 +810,20 @@
 
 /* --- Custom subscriber text! --- */
 
-.subscribers .word {
-  font-size: 0;
-}
+  .subscribers .word {
+    font-size: 0;
+  }
 
-.subscribers .word:after {
-  content: 'Augmented Death Eaters';
-  font-size: 12px;
-}
+  .subscribers .word:after {
+    content: 'Augmented Death Eaters';
+    font-size: 12px;
+  }
 
-.users-online .word {
-  font-size: 0;
-}
+  .users-online .word {
+    font-size: 0;
+  }
 
-.users-online .word:after {
-  content: 'who shall not be named';
-  font-size: 12px;
-}
+  .users-online .word:after {
+    content: 'who shall not be named';
+    font-size: 12px;
+  }
