@@ -438,18 +438,27 @@
     right: 13px;
   }
 
+  .side h1.whoaversename {
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+  }
+
   .side h1.whoaversename a:first-child {
     display: none;
   }
 
   .side h1.whoaversename a:before {
-    content: "RSS feed ";
+    content: "Subverse RSS feed ";
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
   }
 
-  .side h1.whoaversename {
-    background-color: #FFF;
-    padding: 10px;
-    border: 1px solid #d1d1d1;
+  .side h1.whoaversename img {
+    float: right;
+    position: relative;
+    top: 3px;
   }
 
   .side .md blockquote {
