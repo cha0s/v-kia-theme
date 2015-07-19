@@ -272,8 +272,269 @@
   }
 
 
-/* --- List pages --- */
+/* --- Sidebar --- */
 
+  .side {
+    float: right;
+    margin: 0;
+    padding: 0 10px 10px;
+    top: -1px;
+    transition: 500ms right;
+    width: 320px;
+  }
+
+  @media (max-width: 870px) {
+    .side {
+      height: calc(100vh - 100px);
+      left: -320px;
+    }
+  }
+
+  .side form[action="/search"] {
+    background-color: #FFF;
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    margin-bottom: 82px;
+    padding: 10px 10px 8px;
+    position: relative;
+    top: 73px;
+  }
+
+  @media (max-width: 870px) {
+
+    .side form[action="/search"] {
+      top: 82px;
+      margin-bottom: 90px;
+    }
+  }
+
+  .dark .side form[action="/search"] input[name="q"], .dark #chatInputBox {
+    border-color: #666;
+  }
+
+  .side form[action="/search"] label {
+    margin-bottom: 0px;
+  }
+
+  .side .submissioninfo {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  .side .submissioninfo .alert-h2 {
+    background-color: #FFF;
+    border-bottom: none;
+    border-left: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+    border-top: 1px solid #d1d1d1;
+    color: #888;
+    padding: 10px 10px 5px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  .dark .side .submissioninfo .alert-h2 {
+    color: #d1d1d1;
+  }
+
+  .side .submissioninfo div:nth-child(2),
+  .side .submissioninfo div:nth-child(4),
+  .side .submissioninfo div:nth-child(6) {
+    background-color: #FFF;
+    border-bottom: 1px solid #d1d1d1;
+    border-left: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+    border-top: none;
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
+
+  .side .submissioninfo div:nth-child(2) p:first-child,
+  .side .submissioninfo div:nth-child(4) p:first-child,
+  .side .submissioninfo div:nth-child(6) p:first-child {
+    margin-top: 0;
+    padding-top: 10px;
+  }
+
+  .side .submissioninfo .submission-score-box:last-child p:last-child {
+    margin-bottom: 0;
+  }
+
+  .side .subscribers {
+    background-color: #FFF;
+    border-left: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+    border-top: 1px solid #d1d1d1;
+    border-radius: 2px;
+    display: block;
+    padding: 10px 10px 0;
+    margin: 10px 0 0;
+  }
+
+  .side .users-online {
+    background-color: #FFF;
+    border-bottom: 1px solid #d1d1d1;
+    border-left: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+    border-radius: 2px;
+    padding: 0px 10px 10px;
+    margin: 0 0 .4em;
+  }
+
+  .sidecontentbox {
+    background-color: #FFF;
+    border: 1px solid #d1d1d1;
+    padding: 10px;
+    position: relative;
+  }
+
+  .sidecontentbox .title h1 {
+    border: none;
+    color: #888;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  .dark .sidecontentbox .title h1 {
+    color: #d1d1d1;
+  }
+
+  .sidecontentbox .content {
+    background: transparent;
+    border: none;
+  }
+
+  .sidecontentbox ul.content {
+    padding: 0 5px;
+  }
+
+  .side .spacer.spacersection {
+    border: none;
+    padding: 0;
+  }
+
+  .helplink.message-moderators-temporary-class {
+    display: none;
+  }
+
+  .titlebox .bottom {
+    background-color: #FFF;
+    border: 1px solid #d1d1d1;
+    margin-top: 5px;
+    padding: 10px;
+  }
+
+  .accordion-inner .sidecontentbox {
+    margin-bottom: 2px;
+    padding: 0;
+  }
+
+  .accordion-toggle {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+  }
+
+  .side h1.whoaversename a:first-child {
+    display: none;
+  }
+
+  .side h1.whoaversename a:before {
+    content: "RSS feed ";
+  }
+
+  .side h1.whoaversename {
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+  }
+
+  .side .md blockquote {
+    background-color: #FFF;
+    border: 1px solid #d1d1d1;
+    margin: 5px 0;
+    padding: 10px;
+  }
+
+  .side .md blockquote h1 {
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+  }
+
+  .side .md hr {
+    display: none;
+  }
+
+  .side .md table {
+    box-shadow: none;
+    background-color: transparent;
+    margin: 5px 0 10px;
+  }
+
+  .dark .side .md tr,
+  .dark .side .md th,
+  .dark .side .md td {
+    border-color: #444;
+  }
+
+  .side .md td, .side .md th {
+    padding: 10px;
+  }
+
+  .side .md table thead {
+    border-bottom: none;
+  }
+
+  .dark .side .md blockquote,
+  .dark .side form[action="/search"],
+  .dark .side .subscribers,
+  .dark .side .users-online,
+  .dark .sidecontentbox,
+  .dark .titlebox .bottom,
+  .dark .side h1.whoaversename,
+  .dark .side .submissioninfo .alert-h2,
+  .dark .side .submissioninfo div:nth-child(2),
+  .dark .side .submissioninfo div:nth-child(4),
+  .dark .side .submissioninfo div:nth-child(6) {
+    background-color: #292929;
+    border-color: #444;
+  }
+
+/* --- More Buttons --- */
+
+  .titlebox h3 a, .btn-whoaverse-paging.btn-xs.btn-default.btn-sub {
+    background-color: rgb(164, 76, 193);
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17.1599998474121px;
+    padding: 5px 12px;
+    text-align: center;
+    width: 300px;
+    text-transform: capitalize;
+  }
+  .titlebox h3 a, .titlebox h3 a:visited, .titlebox h3 a:active, .titlebox h3 a:hover {
+    color: white;
+  }
+  .btn-whoaverse-paging.btn-xs.btn-default.btn-sub {
+    line-height: 29px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  .btn-whoaverse-paging:hover {
+    border: none;
+  }
+
+/* --- List pages --- */
 
   .btn-whoaverse-paging {
     background: #a44cc1;
@@ -297,7 +558,7 @@
     background: -moz-linear-gradient(top,);
     background: -ms-linear-gradient(top,);
     background: -o-linear-gradient(top,);
-    border: 1px solid #772a90;
+    border: none;
     border-radius: 2px;
     color: #fff;
     display: inline-block;
@@ -310,6 +571,7 @@
 /* --- General stuff --- */
 
   #container {
+    background: transparent;
     border: 0 solid #d1d1d1;
     border-radius: 0;
     border-top: 1px solid #222;
@@ -317,17 +579,45 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
-    padding: 10px;
+    padding: 10px 0;
     position: relative;
+  }
+
+  .dark #container {
+    background-color: #333;
+  }
+
+  .content {
+    background-color: #FFF;
+    border: 1px solid #d1d1d1;
+    padding: 5px 10px 10px;
+  }
+
+  .dark .content {
+    background-color: transparent;
+    border-color: #444;
+  }
+
+  #container > .content > .sitetable {
+    overflow: hidden;
   }
 
   .btn-whoaverse.contribute {
     border: none;
     color: #fff;
+    position: absolute;
+    width: 300px;
+  }
+
+  @media (max-width: 870px) {
+    .btn-whoaverse.contribute {
+      width: 283px;
+    }
   }
 
   .btn-whoaverse.contribute.submit-link {
     background: #a44cc1;
+    top: 10px;
   }
 
   .btn-whoaverse.contribute.submit-link:hover {
@@ -336,6 +626,7 @@
 
   .btn-whoaverse.contribute.submit-text {
     background: #0ea912;
+    top: 48px;
   }
 
   .btn-whoaverse.contribute.submit-text:hover {
@@ -354,25 +645,6 @@
     margin: 0;
     padding: 8px 0;
     margin-left: -20px;
-  }
-
-  .side {
-    float: right;
-    margin: 0;
-    padding: 10px;
-    top: -1px;
-    transition: 500ms right;
-  }
-
-  @media (max-width: 870px) {
-    .side {
-      height: calc(100vh - 100px);
-    }
-  }
-
-  .side .subscribers {
-    display: block;
-    margin: .4em 0;
   }
 
   .midcol {
@@ -504,71 +776,22 @@
     content: " [Old Hatman]";
   }
 
+/* --- Custom subscriber text! --- */
 
-/* --- More Buttons --- */
+.subscribers .word {
+  font-size: 0;
+}
 
-  .titlebox h3 a, .btn-whoaverse-paging.btn-xs.btn-default.btn-sub {
-    background-color: rgb(164, 76, 193);
-    border-radius: 3px;
-    display: inline-block;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 17.1599998474121px;
-    padding: 5px 12px;
-    text-align: center;
-    width: 280px;
-    text-transform: capitalize;
-  }
-  .titlebox h3 a, .titlebox h3 a:visited, .titlebox h3 a:active, .titlebox h3 a:hover {
-    color: white;
-  }
-  .btn-whoaverse-paging.btn-xs.btn-default.btn-sub {
-    line-height: 29px;
-    font-size: 22px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 280px;
-  }
-  .btn-whoaverse-paging:hover {
-    border: none;
-  }
+.subscribers .word:after {
+  content: 'Augmented Death Eaters';
+  font-size: 12px;
+}
 
+.users-online .word {
+  font-size: 0;
+}
 
-/* --- Subverse Name Sidebar --- */
-
-  h1.whoaversename {
-    background-image: url(https://i.imgur.com/PMr5kss.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 285px;
-    font-size: 40px;
-    margin-left: -4px;
-    margin-bottom: 0;
-    position: relative;
-    z-index: 0;
-    height: 31px;
-    margin-bottom: 10px;
-    bottom: 74px;
-  }
-  h1.whoaversename a, h1.whoaversename a:hover, h1.whoaversename a:active, h1.whoaversename a:visited {
-    color: transparent;
-    display: inline-block;
-    height: 30px;
-    width: 285px;
-  }
-  h1.whoaversename a.rss-icon {
-    bottom: 52px;
-    left: 268px;
-    height: 14px;
-    width: 14px;
-    position: relative;
-    z-index: 30;
-  }
-  h1.whoaversename a.rss-icon img{
-    margin-bottom: 37px;
-  }
-  .btn-whoaverse.contribute {
-    position: relative;
-    top: 42px;
-  }
+.users-online .word:after {
+  content: 'who shall not be named';
+  font-size: 12px;
+}
