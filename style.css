@@ -792,6 +792,9 @@
     padding: 2px 4px;
     vertical-align: middle;
     background-color: #e74c3c;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: normal;
   }
 
   .flair.ethics { background-color: #9e0000; }
