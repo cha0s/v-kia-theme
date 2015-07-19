@@ -438,6 +438,12 @@
     right: 13px;
   }
 
+  .leavemoderator {
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    background-color: #FFF;
+  }
+
   .side h1.whoaversename {
     background-color: #FFF;
     padding: 10px;
@@ -500,6 +506,7 @@
     border-bottom: none;
   }
 
+  .dark .side .leavemoderator,
   .dark .side .md blockquote,
   .dark .side form[action="/search"],
   .dark .side .subscribers,
