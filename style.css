@@ -275,7 +275,7 @@
   .side {
     float: right;
     margin: 0;
-    padding: 0 10px 10px;
+    padding: 0 10px;
     top: -1px;
     transition: 500ms right;
     width: 320px;
@@ -283,7 +283,7 @@
 
   @media (max-width: 870px) {
     .side {
-      height: calc(100vh - 100px);
+      height: calc(100vh - 155px);
       left: -320px;
     }
   }
@@ -304,6 +304,10 @@
       top: 82px;
       margin-bottom: 90px;
     }
+  }
+
+  .dark .side {
+    background-color: #333;
   }
 
   .dark .side form[action="/search"] input[name="q"], .dark #chatInputBox {
