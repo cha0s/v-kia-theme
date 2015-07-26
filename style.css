@@ -809,15 +809,17 @@
 
   .flair.opinion { background-color: #423a00; }
 
-  .flair.drama { background-color: #8a0067;}
+  .flair.drama { background-color: #8a0067; }
 
-  .flair.humor { background-color: #543e00;}
+  .flair.humor { background-color: #543e00; }
 
-  .flair.happenings { background-color: #ed871a;}
+  .flair.happenings { background-color: #ed871a; }
 
   .flair.metadiscussion { background-color: #088a85; }
 
-  .flair.verified { background-color: #13e800;}
+  .flair.verified { background-color: #13e800; }
+
+  .flair.misc { background-color: #5600bf; }
 
 
 /* --- Comment flair styling --- */
