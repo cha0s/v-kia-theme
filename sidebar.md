@@ -1,12 +1,15 @@
 > # Quick links
 > - [KiA reddit](http://bit.ly/1fWcwxd)
 > - [GG meetups](http://jot.my/ggcons)
+> - [/v/GamerGate](http://voat.co/v/gamergate)
 
 ---
 
 >#Welcome!
 >
->KotakuInAction is the place to discuss the gaming community, gaming journalism, and issues in the gaming industry.
+>KotakuInAction is a platform for open discussion of the issues where gaming, nerd culture, the Internet, and media collide.
+
+---
 
 ### [Current Happenings](http://bit.ly/1RHOk2d)
 ### [Chatroom](http://bit.ly/1VisjX2)
@@ -16,7 +19,7 @@
 >
 >**[KiA is on Reddit](http://reddit.com/r/kotakuinaction). Also, be sure to subscribe to [/v/GamerGate](http://voat.co/v/gamergate) while you're here.**
 >
->**Be sure to regularly visit the 8chan hub, [/gamergatehq/](https://8ch.net/gamergatehq).**
+>**Be sure to regularly visit the 8chan GamerGate hubs, [/gamergatehq/](https://8ch.net/gamergatehq) and  [/ggrevolt/](https://8ch.net/ggrevolt).**
 >
 >**[/v/GatorLounge](https://voat.co/v/GatorLounge/) is available for all your off-topic and casual needs**
 
@@ -35,30 +38,25 @@
 ---
 
 >#OUR MISSION
->*We believe that the current standard of ethics in the gaming industry is unhealthy to itself, and to gamers. We have taken notice to various conflicts of interest, and wish to address these in hopes that the gaming industry can change, in order to retain the trust of its concerned consumers.*
->  
->*We believe gaming is an inclusive place, and wish to welcome all who want to take part in an amazing hobby. We welcome artistic freedom and equal opportunities for creators and creations. We condemn censorship, exclusion, harassment, and abuse.*
+>*We believe that the current standards of ethics in the media has alienated the artists, developers, and creators who perpetuate the things we love, enjoy, and enthusiastically build communities around. We have taken notice of various incidents involving conflicts of interest and agenda-pushing within media which we feel are damaging to the credibility of the medium and harm the community at large. We believe the current media is complicit in the proliferation of an ideology that squashes individuality, divides along political lines, and is stifling to the freedom of creativity that is the foundation of human expression.*
 >
->*This is a community for discussion of these issues, and for organizing campaigns for reform, so that the industry can be held accountable for its actions and gamers can enjoy their medium without being unjustly attacked or slandered.*
+>*KotakuInAction is a community that condemns willful censorship, exclusion, harassment, or abuse. It is a community that organizes to hold the media accountable to the concept of artistic freedom by standing up for the artist, the developer, the writer, the filmmaker, and all who enjoy the freedom to create, explore, and expand. It is a community that allows the exchange of information, supports the ongoing discussion of media ethics, and protects the right of the individual to embrace their personal interests in entertainment and fandom.*
 
 ---
 
 >#RULES
 >
->1 | **Don't be a dickparade.** Discuss things respectfully. Don't just attack people.
+>1 | **Don't be a dickparade.** Discuss, don't attack. Contribute, don't troll.
 >:-:|---
->2 | **Posting personal information on anybody (“doxxing”) is unacceptable.** This is the quickest way to a ban, so don’t do it. Take every effort to ensure that your posts do not include any personal information, especially in screenshots.
->3 | **Do not post in bad faith.** Bad faith posts include trolling, posting solely to annoy others, constantly calling people shills, etc. Contribute in a meaningful way.
->4 | **Inciting witch hunts against others isn't cool.** We're not a lynch mob.
->5 | **Archive as much as you can.** This is to preserve articles in their original format, in case they are edited in the future, as well as to ensure that the articles comments sections are not brigaded. 
->6 | **Remember to provide evidence for the claims that you make.** If your evidence must remain confidential, message the moderators to privately verify your claims.
->7 | **Reposts will be deleted.** Please check the new queue to make sure your post hasn’t been previously submitted.
->8 | **No memes.**
+>2 | **Posting private information on anybody (“doxing”) is unacceptable.** This includes addresses, phone numbers, etc.
+>3 | **Archive as much as you can.** This is to preserve articles in their original format, in case they are edited in the future, as well as to ensure that the articles comments sections are not brigaded. 
+>4 | **Remember to provide evidence for the claims that you make.** If your evidence must remain confidential, message the moderators to privately verify your claims.
+>5 | **Don't repost content.** Please check the new queue to make sure your post hasn’t been previously submitted.
+>6 | **No memes.**
 >
 >**REMINDER: DO NOT POST ANY ILLEGAL CONTENT.**
 >
 >*If you have any questions or concerns, please message the moderators before private messaging an individual moderator. We can't get back to you if we are asleep or experiencing real life.*
-
 
 ---
 
