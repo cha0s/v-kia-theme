@@ -879,8 +879,15 @@
 
 /* --- Custom flairs! --- */
 
-  .commentarea .author[href="/user/TheHat2"]:after {
-    content: " [Old Hatman]";
+  #container a[href$="/user/TheHat2"]:after {
+    background: #00c5ff;
+    content: "[Old Hatman]";
+    padding: 2px 4px;
+    position: relative;
+    top: 0px;
+    margin-left: 6px;
+    color: white;
+    border-radius: 3px;
   }
 
 /* --- Custom subscriber text! --- */
